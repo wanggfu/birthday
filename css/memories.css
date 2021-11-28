@@ -905,7 +905,7 @@
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
-		top: 40%;
+		top: 30%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
@@ -2747,8 +2747,8 @@
 /*移动端 */
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-box81 {
-		width: 65%;
-		height: 60%;
+		width: 100%;
+		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -2769,15 +2769,15 @@
 		transition-delay: 2.5s;
 	}
 	.ly-box82 {
-		width: 65%;
-		height: 25%;
+		width: 100%;
+		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:70%;
+		top:50%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
@@ -2788,7 +2788,7 @@
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
-		transition-delay: 5s;
+		transition-delay: 3s;
 	}
 	/*小三角*/
 	.ly-triangle82 {
@@ -2823,8 +2823,8 @@
 /*PC端 */
 @media screen and (min-aspect-ratio: 10/9) {
 	.ly-box81 {
-		width: 15%;
-		height: 600px;
+		width: 100%;
+		height: 100%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -2918,6 +2918,7 @@
 	height: 90%;
 	border-radius: 8px;
 	opacity:0;
+  top:15%;
 	overflow: hidden;
 	transition:all 0.5s;
 }
@@ -2929,6 +2930,15 @@
 	position: absolute;
 	width: 100%;
 	bottom: 0;
+}
+
+/*视频*/
+.ly-videbox82{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  top:15%;
+	overflow: hidden;
 }
 /*文本*/
 .ly-txt84 {
