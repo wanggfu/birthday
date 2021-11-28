@@ -844,7 +844,7 @@
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-box11 {
 		width: 60%;
-		height: 75%;
+		height: 68%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -950,7 +950,7 @@
 		height: 100%;
 		border-radius: 8px;
 		opacity:0;
-    top: -10%;
+    top: 0%;
 		overflow: hidden;
 		transition:all 0.5s;
 	}
