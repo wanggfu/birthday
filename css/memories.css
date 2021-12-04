@@ -1,10 +1,11 @@
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span {
-    background: #fff;
+	background: #fff;
 }
+
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-color:#fff;
+	border-color: #fff;
 }
 /*img{  
 	display: inline-block;
@@ -13,119 +14,135 @@
 }*/
 .bgcolor {
 	background: #ee9ca7;
-    background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
-    background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
-    opacity: 0.9;
+	background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+	background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+	opacity: 0.9;
 }
+
 .bg-bubbles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
 }
+
 .bg-bubbles li {
-  position: absolute;
-  list-style: none;
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
-  -webkit-animation: square 30s infinite;
-  animation: square 30s infinite;
-  -webkit-transition-timing-function: linear;
-  transition-timing-function: linear;
+	position: absolute;
+	list-style: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.15);
+	bottom: -160px;
+	-webkit-animation: square 30s infinite;
+	animation: square 30s infinite;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
 }
+
 .bg-bubbles li:nth-child(1) {
-  left: 10%;
+	left: 10%;
 }
+
 .bg-bubbles li:nth-child(2) {
-  left: 20%;
-  width: 80px;
-  height: 80px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+	left: 20%;
+	width: 80px;
+	height: 80px;
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-duration: 17s;
+	animation-duration: 17s;
 }
+
 .bg-bubbles li:nth-child(3) {
-  left: 25%;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+	left: 25%;
+	-webkit-animation-delay: 4s;
+	animation-delay: 4s;
 }
+
 .bg-bubbles li:nth-child(4) {
-  left: 40%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
-  background-color: rgba(255, 255, 255, 0.25);
+	left: 40%;
+	width: 60px;
+	height: 60px;
+	-webkit-animation-duration: 22s;
+	animation-duration: 22s;
+	background-color: rgba(255, 255, 255, 0.25);
 }
+
 .bg-bubbles li:nth-child(5) {
-  left: 70%;
+	left: 70%;
 }
+
 .bg-bubbles li:nth-child(6) {
-  left: 80%;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  background-color: rgba(255, 255, 255, 0.2);
+	left: 80%;
+	width: 120px;
+	height: 120px;
+	-webkit-animation-delay: 3s;
+	animation-delay: 3s;
+	background-color: rgba(255, 255, 255, 0.2);
 }
+
 .bg-bubbles li:nth-child(7) {
-  left: 32%;
-  width: 160px;
-  height: 160px;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+	left: 32%;
+	width: 160px;
+	height: 160px;
+	-webkit-animation-delay: 7s;
+	animation-delay: 7s;
 }
+
 .bg-bubbles li:nth-child(8) {
-  left: 55%;
-  width: 20px;
-  height: 20px;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
+	left: 55%;
+	width: 20px;
+	height: 20px;
+	-webkit-animation-delay: 15s;
+	animation-delay: 15s;
+	-webkit-animation-duration: 40s;
+	animation-duration: 40s;
 }
+
 .bg-bubbles li:nth-child(9) {
-  left: 25%;
-  width: 10px;
-  height: 10px;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-  background-color: rgba(255, 255, 255, 0.3);
+	left: 25%;
+	width: 10px;
+	height: 10px;
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-duration: 40s;
+	animation-duration: 40s;
+	background-color: rgba(255, 255, 255, 0.3);
 }
+
 .bg-bubbles li:nth-child(10) {
-  left: 90%;
-  width: 160px;
-  height: 160px;
-  -webkit-animation-delay: 11s;
-          animation-delay: 11s;
+	left: 90%;
+	width: 160px;
+	height: 160px;
+	-webkit-animation-delay: 11s;
+	animation-delay: 11s;
 }
+
 @-webkit-keyframes square {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-900px) rotate(600deg);
-            transform: translateY(-900px) rotate(600deg);
-  }
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	100% {
+		-webkit-transform: translateY(-900px) rotate(600deg);
+		transform: translateY(-900px) rotate(600deg);
+	}
 }
+
 @keyframes square {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-900px) rotate(600deg);
-            transform: translateY(-900px) rotate(600deg);
-  }
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	100% {
+		-webkit-transform: translateY(-900px) rotate(600deg);
+		transform: translateY(-900px) rotate(600deg);
+	}
 }
 /***                                  内容区域                                 ***/
 /**                                   第一部分                                  **/
@@ -133,137 +150,144 @@
 /*PC端*/
 @media screen and (min-aspect-ratio: 10/9) {
 	.ly-box01 {
-		width:50px;
-		height:50px;
-		background-color:#FFF;
+		width: 50px;
+		height: 50px;
+		background-color: #FFF;
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
-		margin-bottom:50%;
+		margin-bottom: 50%;
 		overflow: hidden;
-		transform-origin:center bottom;
-		animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
+		transform-origin: center bottom;
+		animation: box_to_point 18.5s 0s,bounce 2.5s 18.5s;
 	}
 }
 
 /*移动端*/
-@media screen and (max-aspect-ratio: 3/4){
+@media screen and (max-aspect-ratio: 3/4) {
 	.ly-box01 {
-		width:50px;
-		height:50px;
-		background-color:#FFF;
+		width: 50px;
+		height: 50px;
+		background-color: #FFF;
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
-		margin-bottom:50%;
+		margin-bottom: 50%;
 		overflow: hidden;
-		transform-origin:center bottom;
-		animation:box_to_point_mobile 18.5s 0s,bounce 2.5s 18.5s;
+		transform-origin: center bottom;
+		animation: box_to_point_mobile 18.5s 0s,bounce 2.5s 18.5s;
 	}
 }
 
 /** 移动端动画 **/
-@keyframes box_to_point_mobile{
+@keyframes box_to_point_mobile {
 	0% {
-		margin-bottom:50%;
-		width:50px;
-		height:50px;
+		margin-bottom: 50%;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
-		}
+	}
+
 	10% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
 	}
 	/*打开小球*/
 	14% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 80%;
 		height: 70%;
 		border-radius: 6px;
-		background-color:rgba(255,255,255,0.5);
+		background-color: rgba(255,255,255,0.5);
 		position: absolute;
 		left: 10%;
 		bottom: 15%;
 	}
+
 	96% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 80%;
 		height: 70%;
 		border-radius: 6px;
-		background-color:rgba(255,255,255,0.6);
+		background-color: rgba(255,255,255,0.6);
 		position: absolute;
 		left: 10%;
 		bottom: 15%;
 	}
+
 	100% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
 	}
 }
-@-webkit-keyframes box_to_point_mobile{
+
+@-webkit-keyframes box_to_point_mobile {
 	0% {
-		margin-bottom:50%;
-		width:50px;
-		height:50px;
+		margin-bottom: 50%;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
-		}
+	}
+
 	10% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
 	}
 	/*打开小球*/
 	14% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 80%;
 		height: 70%;
 		border-radius: 6px;
-		background-color:rgba(255,255,255,0.5);
+		background-color: rgba(255,255,255,0.5);
 		position: absolute;
 		left: 10%;
 		bottom: 15%;
 	}
+
 	96% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 80%;
 		height: 70%;
 		border-radius: 6px;
-		background-color:rgba(255,255,255,0.6);
+		background-color: rgba(255,255,255,0.6);
 		position: absolute;
 		left: 10%;
 		bottom: 15%;
 	}
+
 	100% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
 		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1);
 		position: absolute;
 		left: 48%;
 		bottom: 50%;
@@ -271,128 +295,140 @@
 }
 
 /** PC端动画 **/
-@keyframes box_to_point{
+@keyframes box_to_point {
 	0% {
-		margin-bottom:50%;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-		}
-	10% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-	}
-	14% {
-		margin-bottom:0;
-		width: 80%;
-		height: 70%;
-		border-radius: 6px;
-		background-color:rgba(255,255,255,0.5);
-		position: absolute;
-		left: 10%;
-		bottom: 12%;
-	}
-	96% {
-		margin-bottom:0;
-		width: 80%;
-		height: 70%;
-		border-radius: 6px;
-		background-color:rgba(255,255,255,0.6);
-		position: absolute;
-		left: 10%;
-		bottom: 12%;
-	}
-	100% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-	}
-}
-@-webkit-keyframes box_to_point{
-	0% {
-		margin-bottom:50%;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-		}
-	10% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-	}
-	14% {
-		margin-bottom:0;
-		width: 80%;
-		height: 70%;
-		border-radius: 6px;
-		background-color:rgba(255,255,255,0.5);
-		position: absolute;
-		left: 10%;
-		bottom: 12%;
-	}
-	96% {
-		margin-bottom:0;
-		width: 80%;
-		height: 70%;
-		border-radius: 6px;
-		background-color:rgba(255,255,255,0.6);
-		position: absolute;
-		left: 10%;
-		bottom: 12%;
-	}
-	100% {
-		margin-bottom:0;
-		width:50px;
-		height:50px;
-		border-radius: 25px;
-		background-color:rgba(255,255,255,1);
-		position: absolute;
-		left: 48%;
-		bottom: 50%;
-	}
-}
-@keyframes bounce{
-	0% {
-		margin-bottom:0;
+		margin-bottom: 50%;
 		width: 50px;
 		height: 50px;
 		border-radius: 25px;
-		bottom:50%;
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+
+	10% {
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		background-color: rgba(255,255,255,1);
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+
+	14% {
+		margin-bottom: 0;
+		width: 80%;
+		height: 70%;
+		border-radius: 6px;
+		background-color: rgba(255,255,255,0.5);
+		position: absolute;
+		left: 10%;
+		bottom: 12%;
+	}
+
+	96% {
+		margin-bottom: 0;
+		width: 80%;
+		height: 70%;
+		border-radius: 6px;
+		background-color: rgba(255,255,255,0.6);
+		position: absolute;
+		left: 10%;
+		bottom: 12%;
+	}
+
+	100% {
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		background-color: rgba(255,255,255,1);
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+}
+
+@-webkit-keyframes box_to_point {
+	0% {
+		margin-bottom: 50%;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+
+	10% {
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		background-color: rgba(255,255,255,1);
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+
+	14% {
+		margin-bottom: 0;
+		width: 80%;
+		height: 70%;
+		border-radius: 6px;
+		background-color: rgba(255,255,255,0.5);
+		position: absolute;
+		left: 10%;
+		bottom: 12%;
+	}
+
+	96% {
+		margin-bottom: 0;
+		width: 80%;
+		height: 70%;
+		border-radius: 6px;
+		background-color: rgba(255,255,255,0.6);
+		position: absolute;
+		left: 10%;
+		bottom: 12%;
+	}
+
+	100% {
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		background-color: rgba(255,255,255,1);
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+}
+
+@keyframes bounce {
+	0% {
+		margin-bottom: 0;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		bottom: 50%;
 		left: 48%;
 	}
+
 	50% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		left: 48%;
 		width: 50px;
 		height: 50px;
 		border-radius: 25px;
-		bottom:0;
+		bottom: 0;
 		left: 48%;
 	}
+
 	100% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 20px;
 		height: 20px;
 		border-radius: 10px;
@@ -401,26 +437,29 @@
 		left: 20%;
 	}
 }
-@-webkit-keyframes bounce{
-		0% {
-		margin-bottom:0;
+
+@-webkit-keyframes bounce {
+	0% {
+		margin-bottom: 0;
 		width: 50px;
 		height: 50px;
 		border-radius: 25px;
-		bottom:50%;
+		bottom: 50%;
 		left: 48%;
 	}
+
 	50% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		left: 48%;
 		width: 50px;
 		height: 50px;
 		border-radius: 25px;
-		bottom:0;
+		bottom: 0;
 		left: 48%;
 	}
+
 	100% {
-		margin-bottom:0;
+		margin-bottom: 0;
 		width: 20px;
 		height: 20px;
 		border-radius: 10px;
@@ -432,33 +471,33 @@
 /*文本*/
 @media screen and (min-aspect-ratio: 10/9) {
 	.ly-txt01 {
-		position:absolute;
+		position: absolute;
 		width: 40%;
-		left:10%;
-		top:10%;
+		left: 10%;
+		top: 10%;
 	}
-	
+
 	.ly-txt02 {
-		position:absolute;
+		position: absolute;
 		width: 40%;
-		left:60%;
-		top:10%;
+		left: 60%;
+		top: 10%;
 	}
 }
 
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-txt01 {
-		position:absolute;
+		position: absolute;
 		width: 100%;
-		left:10%;
-		top:5%;
+		left: 10%;
+		top: 5%;
 	}
-	
+
 	.ly-txt02 {
-		position:absolute;
+		position: absolute;
 		width: 80%;
-		left:15%;
-		top:50%;
+		left: 15%;
+		top: 50%;
 	}
 
 	.ly-txt01 p {
@@ -478,10 +517,10 @@
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	animation:ly-stxt01_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt01_move 15s;
-	-webkit-animation-delay:3s;
+	animation: ly-stxt01_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt01_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt02 {
@@ -491,12 +530,12 @@
 	position: relative;
 	left: 5%;
 	top: 5%;
-	margin-top:-71px;
+	margin-top: -71px;
 	opacity: 0;
-	animation:ly-stxt02_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt02_move 15s;
-	-webkit-animation-delay:3s;
+	animation: ly-stxt02_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt02_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt03 {
@@ -507,11 +546,11 @@
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt03_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt03_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt03_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt03_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt04 {
@@ -522,11 +561,11 @@
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt04_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt04_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt04_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt04_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt05 {
@@ -537,11 +576,11 @@
 	left: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt05_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt05_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt05_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt05_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt06 {
@@ -552,10 +591,10 @@
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	animation:ly-stxt06_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt06_move 15s;
-	-webkit-animation-delay:3s;
+	animation: ly-stxt06_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt06_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt07 {
@@ -566,11 +605,11 @@
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt07_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt07_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt07_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt07_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt08 {
@@ -581,11 +620,11 @@
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt08_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt08_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt08_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt08_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt09 {
@@ -596,11 +635,11 @@
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt09_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt09_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt09_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt09_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
 .ly-stxt10 {
@@ -611,171 +650,531 @@
 	right: 5%;
 	top: 5%;
 	opacity: 0;
-	margin-top:-71px;
-	animation:ly-stxt10_move 15s;
-	animation-delay:3s;
-	-webkit-animation:ly-stxt10_move 15s;
-	-webkit-animation-delay:3s;
+	margin-top: -71px;
+	animation: ly-stxt10_move 15s;
+	animation-delay: 3s;
+	-webkit-animation: ly-stxt10_move 15s;
+	-webkit-animation-delay: 3s;
 }
 
+@keyframes ly-stxt01_move {
+	0% {
+		opacity: 0;
+	}
 
-@keyframes ly-stxt01_move{
-	0% {opacity:0;}
-	8% {opacity:1;}
-	90% {opacity:1;}
-	98% {opacity:0;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes ly-stxt01_move{
-	0% {opacity:0;}
-	8% {opacity:0;}
-	90% {opacity:1;}
-	98% {opacity:0;}
-	100% {opacity:0;}
-}
+	8% {
+		opacity: 1;
+	}
 
+	90% {
+		opacity: 1;
+	}
 
-@keyframes ly-stxt02_move{
-	0% {opacity:0;margin-top:-71px;}
-	8% {opacity:0;margin-top:-71px;}
-	16% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt02_move{
-	0% {opacity:0;margin-top:-71px;}
-	8% {opacity:0;margin-top:-71px;}
-	16% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+	98% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }
 
+@-webkit-keyframes ly-stxt01_move {
+	0% {
+		opacity: 0;
+	}
 
-@keyframes ly-stxt03_move{
-	0% {opacity:0;margin-top:-71px;}
-	16% {opacity:0;margin-top:-71px;}
-	24% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt03_move{
-	0% {opacity:0;margin-top:-71px;}
-	16% {opacity:0;margin-top:-71px;}
-	24% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
+	8% {
+		opacity: 0;
+	}
 
+	90% {
+		opacity: 1;
+	}
 
-@keyframes ly-stxt04_move{
-	0% {opacity:0;margin-top:-71px;}
-	24% {opacity:0;margin-top:-71px;}
-	32% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt04_move{
-	0% {opacity:0;margin-top:-71px;}
-	24% {opacity:0;margin-top:-71px;}
-	32% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+	98% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }
 
+@keyframes ly-stxt02_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
-@keyframes ly-stxt05_move{
-	0% {opacity:0;margin-top:-71px;}
-	32% {opacity:0;margin-top:-71px;}
-	40% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt05_move{
-	0% {opacity:0;margin-top:-71px;}
-	32% {opacity:0;margin-top:-71px;}
-	40% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
+	8% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
+	16% {
+		opacity: 1;
+		margin-top: 0;
+	}
 
-@keyframes ly-stxt06_move{
-	0% {opacity:0;}
-	40% {opacity:0;}
-	48% {opacity:1;}
-	90% {opacity:1;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes ly-stxt06_move{
-	0% {opacity:0;}
-	40% {opacity:0;}
-	48% {opacity:1;}
-	90% {opacity:1;}
-	100% {opacity:0;}
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
 }
 
+@-webkit-keyframes ly-stxt02_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
-@keyframes ly-stxt07_move{
-	0% {opacity:0;margin-top:-71px;}
-	48% {opacity:0;margin-top:-71px;}
-	56% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt07_move{
-	0% {opacity:0;margin-top:-71px;}
-	48% {opacity:0;margin-top:-71px;}
-	56% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
+	8% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
+	16% {
+		opacity: 1;
+		margin-top: 0;
+	}
 
-@keyframes ly-stxt08_move{
-	0% {opacity:0;margin-top:-71px;}
-	56% {opacity:0;margin-top:-71px;}
-	64% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt08_move{
-	0% {opacity:0;margin-top:-71px;}
-	56% {opacity:0;margin-top:-71px;}
-	64% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
 }
 
+@keyframes ly-stxt03_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
-@keyframes ly-stxt09_move{
-	0% {opacity:0;margin-top:-71px;}
-	64% {opacity:0;margin-top:-71px;}
-	72% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
-}
-@-webkit-keyframes ly-stxt09_move{
-	0% {opacity:0;margin-top:-71px;}
-	64% {opacity:0;margin-top:-71px;}
-	72% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+	16% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	24% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
 }
 
+@-webkit-keyframes ly-stxt03_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
 
-@keyframes ly-stxt10_move{
-	0% {opacity:0;margin-top:-71px;}
-	72% {opacity:0;margin-top:-71px;}
-	80% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+	16% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	24% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
 }
-@-webkit-keyframes ly-stxt10_move{
-	0% {opacity:0;margin-top:-71px;}
-	72% {opacity:0;margin-top:-71px;}
-	80% {opacity:1;margin-top:0;}
-	90% {opacity:1;margin-top:0;}
-	100% {opacity:0;margin-top:0;}
+
+@keyframes ly-stxt04_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	24% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	32% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt04_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	24% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	32% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@keyframes ly-stxt05_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	32% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	40% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt05_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	32% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	40% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@keyframes ly-stxt06_move {
+	0% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0;
+	}
+
+	48% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt06_move {
+	0% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0;
+	}
+
+	48% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes ly-stxt07_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	48% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	56% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt07_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	48% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	56% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@keyframes ly-stxt08_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	56% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	64% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt08_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	56% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	64% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@keyframes ly-stxt09_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	64% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	72% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt09_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	64% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	72% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@keyframes ly-stxt10_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	72% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	80% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
+}
+
+@-webkit-keyframes ly-stxt10_move {
+	0% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	72% {
+		opacity: 0;
+		margin-top: -71px;
+	}
+
+	80% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	90% {
+		opacity: 1;
+		margin-top: 0;
+	}
+
+	100% {
+		opacity: 0;
+		margin-top: 0;
+	}
 }
 /**                                      第二部分                                       **/
 /*时间轴的线*/
@@ -785,15 +1184,16 @@
 	height: 0;
 	position: absolute;
 	left: 20%;
-	top:-100%;
+	top: -100%;
 	background-color: #ccc;
-	border-radius:3px;
+	border-radius: 3px;
 	transition: all 2s;
 }
+
 .active .timeline {
 	width: 10px;
 	height: 100%;
-	top:0;
+	top: 0;
 	transition-delay: 0.1s;
 }
 /*时间轴上的点*/
@@ -802,7 +1202,7 @@
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 15.5%;
 	opacity: 0;
 	background-color: #fff;
@@ -811,8 +1211,9 @@
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	border-radius: 10px;
-	transition: all 0.3s; 
+	transition: all 0.3s;
 }
+
 .active .timepoint {
 	opacity: 1;
 	transition-delay: 2s;
@@ -823,7 +1224,7 @@
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
@@ -834,8 +1235,9 @@
 	border-radius: 10px;
 	transition: all 1s;
 }
+
 .active .timepoint11 {
-	top:15.5%;
+	top: 15.5%;
 	transition-delay: 2s;
 }
 
@@ -851,14 +1253,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:30%;
+		top: 30%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box11{
+
+	.active .ly-box11 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -874,14 +1277,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:5%;
+		top: 5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box12{
+
+	.active .ly-box12 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -891,17 +1295,18 @@
 	.ly-box11 p {
 		font-size: 2.5vw !important;
 	}
+
 	.ly-box12 p {
 		font-size: 2.5vw !important;
 	}
 	/*小三角*/
 	.ly-triangle11 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -911,6 +1316,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle11 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -920,12 +1326,12 @@
 	}
 	/*小三角*/
 	.ly-triangle12 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -935,6 +1341,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle12 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -943,22 +1350,24 @@
 		transition-delay: 3s;
 	}
 	/*图片*/
-	.ly-imgbox11{
+	.ly-imgbox11 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
-		opacity:0;
-    top: 0%;
+		opacity: 0;
+		top: 0%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox11{
-		opacity:1;
-		transition-delay:3.5s;
+
+	.active .ly-imgbox11 {
+		opacity: 1;
+		transition-delay: 3.5s;
 	}
-	.ly-img11{
+
+	.ly-img11 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -976,17 +1385,16 @@
 		opacity: 0;
 		transition: all 0.5s;
 	}
-	
+
 	.active .ly-txt11 {
 		opacity: 1;
 		transition-delay: 3.5s;
 	}
-	
-	
+
 	.ly-txt12 {
 		font-family: Microsoft YaHei;
 		font-size: 20px;
-		text-indent:2em;
+		text-indent: 2em;
 		font-color: #000;
 		position: absolute;
 		padding-top: 20px;
@@ -995,7 +1403,7 @@
 		opacity: 0;
 		transition: all 1s;
 	}
-	
+
 	.active .ly-txt12 {
 		opacity: 1;
 		transition-delay: 4s;
@@ -1014,30 +1422,30 @@
 		opacity: 0;
 		transition: all 0.5s;
 	}
-	
+
 	.active .ly-txt13 {
 		opacity: 1;
-		transition-delay:3.5s;
+		transition-delay: 3.5s;
 	}
-	
+
 	.ly-txt14 {
-		text-indent:2em;
+		text-indent: 2em;
 		font-family: Microsoft YaHei;
 		font-size: 20px;
 		font-color: #000;
 		position: absolute;
-		margin-left:30px;
-		margin-right:30px;
+		margin-left: 30px;
+		margin-right: 30px;
 		top: 30%;
 		opacity: 1;
 		transition: all 13s;
-		height:0;
-		width:88%;
-		overflow:hidden;
+		height: 0;
+		width: 88%;
+		overflow: hidden;
 	}
-	
+
 	.active .ly-txt14 {
-		height:400px;
+		height: 400px;
 		transition-delay: 4s;
 	}
 }
@@ -1053,14 +1461,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box11{
+
+	.active .ly-box11 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1068,12 +1477,12 @@
 	}
 	/*小三角*/
 	.ly-triangle11 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1083,6 +1492,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle11 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1091,21 +1501,23 @@
 		transition-delay: 3.5s;
 	}
 	/*图片*/
-	.ly-imgbox11{
+	.ly-imgbox11 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 70%;
 		border-radius: 8px;
-		opacity:0;
+		opacity: 0;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox11{
-		opacity:1;
-		transition-delay:3.5s;
+
+	.active .ly-imgbox11 {
+		opacity: 1;
+		transition-delay: 3.5s;
 	}
-	.ly-img11{
+
+	.ly-img11 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -1122,17 +1534,16 @@
 		opacity: 0;
 		transition: all 0.5s;
 	}
-	
+
 	.active .ly-txt11 {
 		opacity: 1;
 		transition-delay: 3.5s;
 	}
-	
-	
+
 	.ly-txt12 {
 		font-family: Microsoft YaHei;
 		font-size: 20px;
-		text-indent:2em;
+		text-indent: 2em;
 		font-color: #000;
 		position: absolute;
 		padding-top: 20px;
@@ -1141,7 +1552,7 @@
 		opacity: 0;
 		transition: all 1s;
 	}
-	
+
 	.active .ly-txt12 {
 		opacity: 1;
 		transition-delay: 4s;
@@ -1157,14 +1568,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 57%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box12{
+
+	.active .ly-box12 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1172,12 +1584,12 @@
 	}
 	/*小三角*/
 	.ly-triangle12 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 43%;
@@ -1187,6 +1599,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle12 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1206,30 +1619,30 @@
 		opacity: 0;
 		transition: all 0.5s;
 	}
-	
+
 	.active .ly-txt13 {
 		opacity: 1;
 		transition-delay: 6s;
 	}
-	
+
 	.ly-txt14 {
-		text-indent:2em;
+		text-indent: 2em;
 		font-family: Microsoft YaHei;
 		font-size: 18px;
 		font-color: #000;
 		position: absolute;
-		margin-left:30px;
-		margin-right:30px;
+		margin-left: 30px;
+		margin-right: 30px;
 		top: 12%;
 		opacity: 1;
 		transition: all 13s;
-		height:0;
-		width:88%;
-		overflow:hidden;
+		height: 0;
+		width: 88%;
+		overflow: hidden;
 	}
-	
+
 	.active .ly-txt14 {
-		height:500px;
+		height: 500px;
 		transition-delay: 6.5s;
 	}
 }
@@ -1243,7 +1656,7 @@
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
@@ -1254,8 +1667,9 @@
 	border-radius: 10px;
 	transition: all 0.5s;
 }
+
 .active .timepoint21 {
-	top:15.5%;
+	top: 15.5%;
 	transition-delay: 1.5s;
 }
 
@@ -1271,14 +1685,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box21{
+
+	.active .ly-box21 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1286,12 +1701,12 @@
 	}
 	/*小三角*/
 	.ly-triangle21 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1301,6 +1716,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle21 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1309,22 +1725,24 @@
 		transition-delay: 3.5s;
 	}
 	/*图片*/
-	.ly-imgbox21{
+	.ly-imgbox21 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 70%;
 		border-radius: 8px;
-		opacity:0;
-    top:15%;
+		opacity: 0;
+		top: 15%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox21{
-		opacity:1;
-		transition-delay:3.5s;
+
+	.active .ly-imgbox21 {
+		opacity: 1;
+		transition-delay: 3.5s;
 	}
-	.ly-img21{
+
+	.ly-img21 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -1340,14 +1758,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 42%;
-		top:22%;
+		top: 22%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box22{
+
+	.active .ly-box22 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1355,12 +1774,12 @@
 	}
 	/*小三角*/
 	.ly-triangle22 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 58%;
@@ -1370,6 +1789,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle22 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1379,21 +1799,23 @@
 	}
 	
 	/*图片*/
-	.ly-imgbox22{
+	.ly-imgbox22 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 80%;
 		border-radius: 8px;
-		opacity:0;
+		opacity: 0;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox22{
-		opacity:1;
-		transition-delay:4s;
+
+	.active .ly-imgbox22 {
+		opacity: 1;
+		transition-delay: 4s;
 	}
-	.ly-img22{
+
+	.ly-img22 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -1409,23 +1831,24 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 61%;
-		bottom:6%;
+		bottom: 6%;
 		overflow: hidden;
 		opacity: 0.9;
 		transition: all 10s;
 	}
-	.active .ly-box23{
-		height:600px;
+
+	.active .ly-box23 {
+		height: 600px;
 		transition-delay: 8s;
 	}
 	/*小三角*/
 	.ly-triangle23 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 39%;
@@ -1435,6 +1858,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle23 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1443,21 +1867,23 @@
 		transition-delay: 12s;
 	}
 	/*图片*/
-	.ly-imgbox23{
+	.ly-imgbox23 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 80%;
 		border-radius: 8px;
-		opacity:0;
+		opacity: 0;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox23{
-		opacity:1;
-		transition-delay:4s;
+
+	.active .ly-imgbox23 {
+		opacity: 1;
+		transition-delay: 4s;
 	}
-	.ly-img23{
+
+	.ly-img23 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -1482,7 +1908,8 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box21{
+
+	.active .ly-box21 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1490,12 +1917,12 @@
 	}
 	/*小三角*/
 	.ly-triangle21 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1505,6 +1932,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle21 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1512,60 +1940,74 @@
 		transform: scale(1, 1);
 		transition-delay: 3.5s;
 	}
-	.ly-imgbox51{
+
+	.ly-imgbox51 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
-		opacity:0;
-    top:15%;
+		opacity: 0;
+		top: 15%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox51{
-		opacity:1;
-		transition-delay:4s;
+
+	.active .ly-imgbox51 {
+		opacity: 1;
+		transition-delay: 4s;
 	}
-	.ly-img51{
+
+	.ly-img51 {
 		position: absolute;
 		width: 99%;
-    height:85%;
-    top:3%;
+		height: 85%;
+		top: 3%;
 		bottom: 0;
 	}
 	/*图片*/
-	.ly-imgbox21{
+	.ly-imgbox21 {
 		position: absolute;
 		bottom: 0;
 		width: 80%;
 		height: 100%;
 		border-radius: 8px;
-		opacity:0;
-    top:8%;
+		opacity: 0;
+		top: 8%;
 		/*overflow: hidden;*/
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox21{
-		opacity:1;
-		transition-delay:4s;
+
+	.active .ly-imgbox21 {
+		opacity: 1;
+		transition-delay: 4s;
 	}
-	.ly-img211{
+
+	.ly-img215 {
 		position: absolute;
 		width: 100%;
-    top:3%;
+		top: 3%;
 		bottom: 0;
 	}
-	.ly-img212{
+
+	.ly-img211 {
 		position: absolute;
 		width: 100%;
-    top:33%;
+		top: 3%;
 		bottom: 0;
 	}
-	.ly-img213{
+
+	.ly-img212 {
 		position: absolute;
 		width: 100%;
-    top:63%;
+		top: 33%;
+		bottom: 0;
+	}
+
+	.ly-img213 {
+		position: absolute;
+		width: 100%;
+		top: 63%;
 		bottom: 0;
 	}
 	
@@ -1579,14 +2021,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 55%;
-		top:18%;
+		top: 18%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box22{
+
+	.active .ly-box22 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1594,12 +2037,12 @@
 	}
 	/*小三角*/
 	.ly-triangle22 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 45%;
@@ -1609,6 +2052,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle22 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1618,22 +2062,24 @@
 	}
 	
 	/*图片*/
-	.ly-imgbox22{
+	.ly-imgbox22 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 80%;
 		border-radius: 8px;
-		opacity:0;
-    top:20%;
+		opacity: 0;
+		top: 20%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox22{
-		opacity:1;
-		transition-delay:5s;
+
+	.active .ly-imgbox22 {
+		opacity: 1;
+		transition-delay: 5s;
 	}
-	.ly-img22{
+
+	.ly-img22 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -1654,18 +2100,19 @@
 		opacity: 0.9;
 		transition: all 10s;
 	}
-	.active .ly-box23{
+
+	.active .ly-box23 {
 		height: 45%;
 		transition-delay: 4.0s;
 	}
 	/*小三角*/
 	.ly-triangle23 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1675,6 +2122,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle23 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1683,33 +2131,36 @@
 		transition-delay: 12s;
 	}
 	/*图片*/
-	.ly-imgbox23{
+	.ly-imgbox23 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 120%;
 		border-radius: 8px;
-		opacity:0;
-    top:-10%;
+		opacity: 0;
+		top: -10%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox23{
-		opacity:1;
-		transition-delay:3s;
+
+	.active .ly-imgbox23 {
+		opacity: 1;
+		transition-delay: 3s;
 	}
-	.ly-img231{
+
+	.ly-img231 {
 		position: absolute;
 		width: 100%;
 		height: 50%;
-    top:0%;
+		top: 0%;
 		bottom: 0;
 	}
-	.ly-img232{
+
+	.ly-img232 {
 		position: absolute;
 		width: 100%;
 		height: 42%;
-    top:50%;
+		top: 50%;
 		bottom: 0;
 	}
 
@@ -1736,11 +2187,10 @@
 	transition-delay: 3.5s;
 }
 
-
 .ly-txt22 {
 	font-family: Microsoft YaHei;
 	font-size: 13px;
-	text-indent:2em;
+	text-indent: 2em;
 	font-color: #000;
 	position: absolute;
 	left: 5%;
@@ -1773,22 +2223,22 @@
 }
 
 .ly-txt24 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:2%;
-	margin-left:5%;
+	width: 80%;
+	top: 2%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt24 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 4.0s;
 }
 
@@ -1811,22 +2261,22 @@
 }
 
 .ly-txt26 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:11%;
-	margin-left:5%;
+	width: 80%;
+	top: 11%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt26 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 14s;
 }
 
@@ -1839,7 +2289,7 @@
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
@@ -1850,8 +2300,9 @@
 	border-radius: 10px;
 	transition: all 1s;
 }
+
 .active .timepoint31 {
-	top:15.5%;
+	top: 15.5%;
 	transition-delay: 2s;
 }
 
@@ -1867,14 +2318,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:5%;
+		top: 5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box31{
+
+	.active .ly-box31 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1897,7 +2349,8 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box32{
+
+	.active .ly-box32 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1906,12 +2359,12 @@
 	
 	/*小三角*/
 	.ly-triangle31 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1921,6 +2374,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle31 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1930,12 +2384,12 @@
 	}
 	/*小三角*/
 	.ly-triangle32 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -1945,6 +2399,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle32 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -1970,14 +2425,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box31{
+
+	.active .ly-box31 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -1993,14 +2449,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 57%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box32{
+
+	.active .ly-box32 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -2009,12 +2466,12 @@
 	
 	/*小三角*/
 	.ly-triangle31 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -2024,6 +2481,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 0.5s;
 	}
+
 	.active .ly-triangle31 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2033,12 +2491,12 @@
 	}
 	/*小三角*/
 	.ly-triangle32 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 43%;
@@ -2048,6 +2506,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle32 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2058,43 +2517,47 @@
 }
 
 /*图片*/
-.ly-imgbox31{
+.ly-imgbox31 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 100%;
 	border-radius: 8px;
-	opacity:0;
-  top:100%;
+	opacity: 0;
+	top: 100%;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox31{
-	opacity:1;
-	transition-delay:3.5s;
+
+.active .ly-imgbox31 {
+	opacity: 1;
+	transition-delay: 3.5s;
 }
-.ly-img31{
+
+.ly-img31 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
 
-.ly-imgbox31{
+.ly-imgbox31 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-  top:50%;
+	top: 50%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox31{
-	opacity:1;
-	transition-delay:3.5s;
+
+.active .ly-imgbox31 {
+	opacity: 1;
+	transition-delay: 3.5s;
 }
-.ly-img31{
+
+.ly-img31 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -2119,11 +2582,10 @@
 	transition-delay: 1.5s;
 }
 
-
 .ly-txt32 {
 	font-family: Microsoft YaHei;
 	font-size: 50px;
-	text-indent:2em;
+	text-indent: 2em;
 	font-color: #000;
 	position: absolute;
 	padding-top: 20px;
@@ -2158,23 +2620,23 @@
 }
 
 .ly-txt34 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 18px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30px;
-	margin-right:30px;
+	margin-left: 30px;
+	margin-right: 30px;
 	top: 12%;
 	opacity: 1;
 	transition: all 13s;
-	height:0;
-	width:88%;
-	overflow:hidden;
+	height: 0;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt34 {
-	height:500px;
+	height: 500px;
 	transition-delay: 6.5s;
 }
 
@@ -2190,16 +2652,17 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 61%;
-		bottom:6%;
+		bottom: 6%;
 		overflow: hidden;
 		opacity: 0.9;
 		transition: all 10s;
 	}
-	.active .ly-box51{
-		height:500px;
+
+	.active .ly-box51 {
+		height: 500px;
 		transition-delay: 8s;
 	}
-	
+
 	.ly-box52 {
 		width: 15%;
 		height: 550px;
@@ -2209,14 +2672,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box52{
+
+	.active .ly-box52 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -2235,39 +2699,43 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		bottom:6%;
+		bottom: 6%;
 		overflow: hidden;
 		opacity: 0.9;
 		transition: all 10s;
 	}
-	.active .ly-box51{
+
+	.active .ly-box51 {
 		height: 40%;
 		transition-delay: 3s;
 	}
 	
 	/*图片*/
-	.ly-imgbox53{
+	.ly-imgbox53 {
 		position: absolute;
 		bottom: 0;
 		width: 10%;
 		height: 10%;
 		border-radius: 8px;
-		opacity:0;
-    top:0%;
+		opacity: 0;
+		top: 0%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox53{
-		opacity:1;
-		transition-delay:3.5s;
+
+	.active .ly-imgbox53 {
+		opacity: 1;
+		transition-delay: 3.5s;
 	}
-	.ly-img53{
+
+	.ly-img53 {
 		position: absolute;
 		width: 100%;
 		height: 95%;
-    top:0%;
+		top: 0%;
 		bottom: 0;
 	}
+
 	.ly-box52 {
 		width: 30%;
 		height: 34%;
@@ -2277,128 +2745,186 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box52{
+
+	.active .ly-box52 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 2.5s;
 	}
+
 	.ly-box51 p, .ly-box52 p {
 		font-size: 2.5vw !important;
 	}
 
 	/*图片*/
-	.ly-imgbox53{
+	.ly-imgbox53 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 100%;
 		border-radius: 8px;
-		opacity:0;
-    top:0%;
+		opacity: 0;
+		top: 0%;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox53{
-		opacity:1;
-		transition-delay:4s;
-  }
+
+	.active .ly-imgbox53 {
+		opacity: 1;
+		transition-delay: 4s;
+	}
 }
 
 .ly-txt51 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:3%;
-	margin-left:5%;
+	width: 80%;
+	top: 3%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt51 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 4.5s;
 }
 
 
 /**                             第六部分                          **/
 @media screen and (max-aspect-ratio: 3/4) {
-	.ly-imgbox61{
+	.ly-imgbox61 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 41%;
 		border-radius: 8px;
-		opacity:0;
+		opacity: 0;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox61{
-		opacity:1;
-		transition-delay:12s;
+
+	.active .ly-imgbox61 {
+		opacity: 1;
+		transition-delay: 12s;
 	}
-	.ly-img61{
+
+	.ly-img61 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
 		/*margin-bottom:-250px;*/
+	}
+	
+	/*图片*/
+	.ly-imgbox62 {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+		opacity: 0;
+		top: 8%;
+		/*overflow: hidden;*/
+		transition: all 0.5s;
+	}
+
+	.active .ly-imgbox62 {
+		opacity: 1;
+		transition-delay: 4s;
+	}
+
+	.ly-img62 {
+		position: absolute;
+		width: 100%;
+    height:10%;
+		top: 3%;
+		bottom: 0;
 	}
 }
 
 @media screen and (min-aspect-ratio: 10/9) {
-	.ly-imgbox61{
+	.ly-imgbox61 {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 41%;
 		border-radius: 8px;
-		opacity:0;
+		opacity: 0;
 		overflow: hidden;
-		transition:all 0.5s;
+		transition: all 0.5s;
 	}
-	.active .ly-imgbox61{
-		opacity:1;
-		transition-delay:12s;
+
+	.active .ly-imgbox61 {
+		opacity: 1;
+		transition-delay: 12s;
 	}
-	.ly-img61{
+
+	.ly-img61 {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
 		/*margin-bottom:-250px;*/
 	}
+	
+	/*图片*/
+	.ly-imgbox62 {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 70%;
+		border-radius: 8px;
+		opacity: 0;
+		top: 15%;
+		overflow: hidden;
+		transition: all 0.5s;
+	}
+
+	.active .ly-imgbox62 {
+		opacity: 1;
+		transition-delay: 3.5s;
+	}
+
+	.ly-img62 {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
 }
 
 .ly-txt61 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt61 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 14s;
 }
+
 .wwww1 {
 	margin-before: 0.5em;
 	margin-after: 0.5em;
@@ -2411,7 +2937,7 @@
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-box71 {
 		width: 35%;
-		height: 40%;
+		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -2425,65 +2951,71 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box71{
+
+	.active .ly-box71 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 5s;
 	}
+
 	.ly-box72 {
 		width: 35%;
-		height: 40%;
+		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		bottom:6.5%;
+    top: 55%;
+		bottom: 6.5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box72{
+
+	.active .ly-box72 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 8s;
 	}
-	
+
 	.ly-box73 {
 		width: 30%;
-		height: 40%;
+		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
 		border-radius: 8px;
 		position: absolute;
 		left: 61%;
-		bottom:6.5%;
+    top:55%;
+		bottom: 6.5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box73{
+
+	.active .ly-box73 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 11s;
 	}
-	
+
 	.ly-triangle71 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -2493,6 +3025,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle71 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2500,14 +3033,14 @@
 		transform: scale(1, 1);
 		transition-delay: 8.5s;
 	}
-	
+
 	.ly-triangle72 {
 		width: 0;
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 39%;
@@ -2517,6 +3050,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle72 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2524,12 +3058,14 @@
 		transform: scale(1, 1);
 		transition-delay: 12s;
 	}
+
 	.xx71 {
-		height:40%;
-		top:5%;
+		height: 40%;
+		top: 5%;
 	}
+
 	.xx72 {
-		top:20%;
+		top: 20%;
 	}
 
 	.ly-box71 p, .ly-box72 p, .ly-box73 p {
@@ -2548,19 +3084,21 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 42%;
-		top:17%;
+		top: 17%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box71{
+
+	.active .ly-box71 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 5s;
 	}
+
 	.ly-box72 {
 		width: 15%;
 		height: 450px;
@@ -2570,20 +3108,21 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 61%;
-		bottom:6.5%;
+		bottom: 6.5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box72{
+
+	.active .ly-box72 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 8s;
 	}
-	
+
 	.ly-box73 {
 		width: 15%;
 		height: 400px;
@@ -2593,27 +3132,28 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 80%;
-		bottom:6.5%;
+		bottom: 6.5%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box73{
+
+	.active .ly-box73 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 11s;
 	}
-	
+
 	.ly-triangle71 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 39%;
@@ -2623,6 +3163,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle71 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2630,14 +3171,14 @@
 		transform: scale(1, 1);
 		transition-delay: 8.5s;
 	}
-	
+
 	.ly-triangle72 {
 		width: 0;
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 20%;
@@ -2647,6 +3188,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle72 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2654,54 +3196,107 @@
 		transform: scale(1, 1);
 		transition-delay: 12s;
 	}
+
 	.xx71 {
-		height:550px;
-		top:16%;
+		height: 550px;
+		top: 16%;
 	}
+
 	.xx72 {
-		top:20%;
+		top: 20%;
 	}
 }
 
-
 .ly-txt71 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt71 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 7.0s;
 }
 /*图片*/
-.ly-imgbox71{
+.ly-imgbox71 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 70%;
+	height: 100%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox71{
-	opacity:1;
-	transition-delay:6.5s;
+
+.active .ly-imgbox71 {
+	opacity: 1;
+	transition-delay: 6.5s;
 }
-.ly-img71{
+
+.ly-img71 {
 	position: absolute;
 	width: 100%;
+  height: 90%;
 	bottom: 0;
+}
+
+.ly-box74 {
+  width: 30%;
+  height: 30%;
+  border: 2px #CCC;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 8px;
+  position: absolute;
+  left: 23%;
+  top: 5%;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  transition: all 1s;
+}
+
+.active .ly-box74 {
+  opacity: 0.9;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition-delay: 2.5s;
+}
+
+/*图片*/
+.ly-imgbox74 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  opacity: 0;
+  top: 10%;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.active .ly-imgbox74 {
+  opacity: 1;
+  transition-delay: 3.5s;
+}
+
+.ly-img74 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
 }
 
 .timepoint71 {
@@ -2709,7 +3304,7 @@
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
@@ -2720,89 +3315,92 @@
 	border-radius: 10px;
 	transition: all 0.5s;
 }
+
 .active .timepoint71 {
-	top:21%;
+	top: 21%;
 	transition-delay: 1.5s;
 }
 
 .ly-txt72 {
-	text-indent:2em;
+	text-indent: 1em;
 	font-family: Microsoft YaHei;
-	font-size: 14px;
+	font-size: 30px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+  margin-left:0cm; 
+	width: 100%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 100%;
+	overflow: hidden;
 }
 
 .active .ly-txt72 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 9s;
 }
 /*图片*/
-.ly-imgbox72{
+.ly-imgbox72 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 80%;
+	height: 100%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox72{
-	opacity:1;
-	transition-delay:8.5s;
+
+.active .ly-imgbox72 {
+	opacity: 1;
+	transition-delay: 8.5s;
 }
-.ly-img72{
+
+.ly-img72 {
 	position: absolute;
 	width: 100%;
+  height: 90%;
 	bottom: 0;
 }
 
 .ly-txt73 {
-	text-indent:2em;
+	text-indent: 1em;
 	font-family: Microsoft YaHei;
-	font-size: 14px;
+	font-size: 30px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 100%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .active .ly-txt73 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 13s;
 }
 /*图片*/
-.ly-imgbox73{
+.ly-imgbox73 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 77%;
-	border-radius: 8px;
-	opacity:0;
-	overflow: hidden;
-	transition:all 0.5s;
-}
-.active .ly-imgbox73{
-	opacity:1;
-	transition-delay:12.5s;
-}
-.ly-img73{
-	position: absolute;
 	height: 100%;
-	/*margin-left:-200px;*/
+	border-radius: 8px;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.active .ly-imgbox73 {
+	opacity: 1;
+	transition-delay: 12.5s;
+}
+
+.ly-img73 {
+	position: absolute;
+  width:100%;
+  height: 90%;
 	bottom: 0;
 }
 
@@ -2827,12 +3425,14 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box81{
+
+	.active .ly-box81 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 2.5s;
 	}
+
 	.ly-box82 {
 		width: 100%;
 		height: 30%;
@@ -2842,14 +3442,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:50%;
+		top: 50%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box82{
+
+	.active .ly-box82 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -2857,12 +3458,12 @@
 	}
 	/*小三角*/
 	.ly-triangle82 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 77%;
@@ -2872,6 +3473,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle82 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2896,19 +3498,21 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box81{
+
+	.active .ly-box81 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 2.5s;
 	}
+
 	.ly-box82 {
 		width: 54%;
 		height: 600px;
@@ -2918,14 +3522,15 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 42%;
-		top:10%;
+		top: 10%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box82{
+
+	.active .ly-box82 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
@@ -2933,12 +3538,12 @@
 	}
 	/*小三角*/
 	.ly-triangle82 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 58%;
@@ -2948,6 +3553,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle82 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -2957,11 +3563,10 @@
 	}
 }
 
-
 .ly-txt82 {
 	font-family: Microsoft YaHei;
 	font-size: 14px;
-	text-indent:1em;
+	text-indent: 1em;
 	font-color: #000;
 	position: absolute;
 	padding-top: 20px;
@@ -2976,54 +3581,56 @@
 	transition-delay: 4s;
 }
 /*图片*/
-.ly-imgbox81{
+.ly-imgbox81 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 90%;
 	border-radius: 8px;
-	opacity:0;
-  top:15%;
+	opacity: 0;
+	top: 15%;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox81{
-	opacity:1;
-	transition-delay:3.5s;
+
+.active .ly-imgbox81 {
+	opacity: 1;
+	transition-delay: 3.5s;
 }
-.ly-img81{
+
+.ly-img81 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
 
 /*视频*/
-.ly-videbox82{
+.ly-videbox82 {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-  top:15%;
+	top: 15%;
 	overflow: hidden;
 }
 /*文本*/
 .ly-txt84 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 15px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30px;
-	margin-right:30px;
+	margin-left: 30px;
+	margin-right: 30px;
 	top: 12%;
 	opacity: 1;
 	transition: all 33s;
-	height:0;
-	width:88%;
-	overflow:hidden;
+	height: 0;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt84 {
-	height:500px;
+	height: 500px;
 	transition-delay: 6.5s;
 }
 
@@ -3046,6 +3653,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.ly-box92 {
 		width: 30%;
 		height: 40%;
@@ -3062,6 +3670,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.ly-box93 {
 		width: 30%;
 		height: 40%;
@@ -3078,40 +3687,44 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box91{
+
+	.active .ly-box91 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 5s;
 	}
+
 	.xx91 {
 		height: 40%;
 		top: 5%;
 	}
+
 	.xx92 {
-		top:22%;
+		top: 22%;
 	}
-	
-	.active .ly-box92{
+
+	.active .ly-box92 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 8s;
 	}
-	.active .ly-box93{
+
+	.active .ly-box93 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 11s;
 	}
-	
+
 	.ly-triangle91 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 76.9%;
@@ -3121,13 +3734,14 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.ly-triangle92 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 44%;
@@ -3137,6 +3751,7 @@
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle91 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -3144,6 +3759,7 @@
 		transform: scale(1, 1);
 		transition-delay: 8.5s;
 	}
+
 	.active .ly-triangle92 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -3167,26 +3783,30 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 42%;
-		bottom:18%;
+		bottom: 18%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box91{
+
+	.active .ly-box91 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 5s;
 	}
+
 	.xx91 {
 		height: 450px;
-		top:18%;
+		top: 18%;
 	}
+
 	.xx92 {
-		top:22%;
+		top: 22%;
 	}
+
 	.ly-box92 {
 		width: 15%;
 		height: 450px;
@@ -3196,19 +3816,21 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 61%;
-		bottom:18%;
+		bottom: 18%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box92{
+
+	.active .ly-box92 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 8s;
 	}
+
 	.ly-box93 {
 		width: 15%;
 		height: 450px;
@@ -3218,36 +3840,38 @@
 		border-radius: 8px;
 		position: absolute;
 		left: 80%;
-		bottom:18%;
+		bottom: 18%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
-	.active .ly-box93{
+
+	.active .ly-box93 {
 		opacity: 0.9;
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 11s;
 	}
-	
+
 	.ly-triangle91 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 39%;
-		top:22%;
+		top: 22%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle91 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -3255,23 +3879,24 @@
 		transform: scale(1, 1);
 		transition-delay: 8.5s;
 	}
-	
+
 	.ly-triangle92 {
-		width: 0; 
-		height: 0; 
-		border-top: 20px solid transparent; 
-		border-right: 22px solid white; 
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-right: 22px solid white;
 		border-bottom: 20px solid transparent;
-		border-radius: 2px; 
+		border-radius: 2px;
 		margin-left: 24px;
 		position: absolute;
 		right: 20%;
-		top:22%;
+		top: 22%;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
 		transform: scale(0.5, 0.5);
 		transition: all 1s;
 	}
+
 	.active .ly-triangle92 {
 		opacity: 0.6;
 		margin-left: 2px;
@@ -3286,63 +3911,67 @@
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt90 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 4.5s;
 }
+
 .ly-txt91 {
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt91 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 7.0s;
 }
 /*图片*/
-.ly-imgbox91{
+.ly-imgbox91 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 80%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox91{
-	opacity:1;
-	transition-delay:6.5s;
+
+.active .ly-imgbox91 {
+	opacity: 1;
+	transition-delay: 6.5s;
 }
-.ly-img91{
+
+.ly-img91 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
+
 .timepoint91 {
 	width: 20px;
 	height: 20px;
 	margin-left: -5px;
 	position: absolute;
-	left:20%;
+	left: 20%;
 	top: 0;
 	opacity: 1;
 	background-color: #fff;
@@ -3353,90 +3982,96 @@
 	border-radius: 10px;
 	transition: all 0.5s;
 }
+
 .active .timepoint91 {
-	top:23.5%;
+	top: 23.5%;
 	transition-delay: 1.5s;
 }
 
 .ly-txt92 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt92 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 9s;
 }
 /*图片*/
-.ly-imgbox92{
+.ly-imgbox92 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 80%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox92{
-	opacity:1;
-	transition-delay:8.5s;
+
+.active .ly-imgbox92 {
+	opacity: 1;
+	transition-delay: 8.5s;
 }
-.ly-img92{
+
+.ly-img92 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
 
 .ly-txt93 {
-	text-indent:2em;
+	text-indent: 2em;
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:9%;
-	margin-left:5%;
+	width: 80%;
+	top: 9%;
+	margin-left: 5%;
 	opacity: 0;
 	transition: all 0.5s;
-	width:88%;
-	overflow:hidden;
+	width: 88%;
+	overflow: hidden;
 }
 
 .active .ly-txt93 {
-	opacity:1;
+	opacity: 1;
 	transition-delay: 13s;
 }
 /*图片*/
-.ly-imgbox93{
+.ly-imgbox93 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 80%;
 	border-radius: 8px;
-	opacity:0;
+	opacity: 0;
 	overflow: hidden;
-	transition:all 0.5s;
+	transition: all 0.5s;
 }
-.active .ly-imgbox93{
-	opacity:1;
-	transition-delay:12.5s;
+
+.active .ly-imgbox93 {
+	opacity: 1;
+	transition-delay: 12.5s;
 }
-.ly-img93{
+
+.ly-img93 {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 }
+
 .xx94 {
-	height:80%;
+	height: 80%;
 }
