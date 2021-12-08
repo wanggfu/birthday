@@ -3836,7 +3836,7 @@
 .ly-txt84 {
 	text-indent: 2em;
 	font-family: Microsoft YaHei;
-	font-size: 15px;
+	font-size: 30px;
 	font-color: #000;
 	position: absolute;
 	margin-left: 30px;
@@ -3851,7 +3851,7 @@
 
 .active .ly-txt84 {
 	height: 500px;
-	transition-delay: 6.5s;
+	transition-delay: 4.5s;
 }
 
 /**                           第九部分                          **/
